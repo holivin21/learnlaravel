@@ -4,7 +4,6 @@
 
 @section('body')
 <div class="container">
-    <h1>Home</h1>
-    {{"name".$name}}
+    <h1>{{$slug}}</h1>
 </div>
 @endsection

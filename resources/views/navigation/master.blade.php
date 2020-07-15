@@ -9,7 +9,7 @@
     @yield('style')
 </head>
 <body>
-    @include('navigation.nav')
+    @include('navigation/nav')
     <div class="py-4">
         @yield('body')
     </div>
