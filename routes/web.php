@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/','home');
 
-Route::get('posts/{slug}','post@show');
+Route::get('posts/{post:SLUG}','post@show');
 
 Route::view('about','about');
 
